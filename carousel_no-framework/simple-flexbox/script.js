@@ -3,16 +3,15 @@ const backBtn = document.getElementById("btn-back");
 const forwardBtn = document.getElementById("btn-forward");
 let imagesArr = [...images];
 
-let arr = [1, 2, 3, 4, 5];
-
+//// FORMULAS FOR SHIFTING ARRAY ITEMS /////
 // shift items to the right
-arr.unshift(arr.pop());
-console.log(arr);
+// arr.unshift(arr.pop());
 
 // shift items to the left
-arr.push(arr[0]);
-arr = arr.slice(1);
-console.log(arr);
+// arr.push(arr[0]);
+// arr = arr.slice(1);
+/////////////////////////////////////////////
+
 
 function moveLeft() {
     images.forEach(image => {
